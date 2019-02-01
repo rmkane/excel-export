@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+
+	compile group: 'org.apache.poi', name: 'poi', version: '4.0.1'
+	compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.0.1'
+	
+    testCompile 'junit:junit:4.12'
+}
